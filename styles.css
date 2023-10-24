@@ -1,6 +1,7 @@
 html {
     background-color: rgb(192, 156, 110);
 }
+
 h1,img {
     display: block;
     margin-left: auto;
@@ -8,9 +9,11 @@ h1,img {
     width: 50%;
     outline:auto
 }
+
 h1,h4 {
     border: 3mm ridge aqua;
 }
+
 h1 {
     background-color:silver;
     text-align:center;
@@ -21,10 +24,17 @@ h1 {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color:black;
 }
+
 ul li,ol li {
     margin-bottom:5px;
 }
+
 #mini {
     width: 200px;
-    border: 3mm ridge aqua;
+    border: 3mm ridge aqua
+}
+
+.index-buttons {
+    text-align:center;
+    display: block;
 }
