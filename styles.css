@@ -12,6 +12,9 @@ h1,img {
 
 h1,h4 {
     border: 3mm ridge aqua;
+    background-image:linear-gradient(to right,silver, white, silver, gray);
+    padding: 2px;
+    font-size: 16pt;
 }
 
 h1 {
@@ -25,7 +28,7 @@ h1 {
     -webkit-text-stroke-color:black;
 }
 
-ul li,ol li {
+li {
     margin-bottom:5px;
 }
 
@@ -34,7 +37,10 @@ ul li,ol li {
     border: 3mm ridge aqua
 }
 
-.index-buttons {
-    text-align:center;
+/*This is only for the main page buttons*/
+.index-button {
+    margin:8px auto;
     display: block;
+    border: 5px;
+    border-style:double
 }
